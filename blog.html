@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unlock Dreams</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <img src="images/DreamsUnlock1.jpg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fa-solid fa-xmark"></i>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu" src="images/menu1.png">
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="blog-home">
+        <h2>Blog</h2>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog-container">
+        <div class="blog">
+            <div class="post">
+                <img src="images/b1.jpg">
+                <h3>Learn Web Development in The Easiest Way</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laboriosam sit veniam optio ex. Laboriosam expedita, id perspiciatis modi reiciendis adipisci minima alias eligendi cupiditate? Id voluptates ratione quos nobis?
+                Ad nemo beatae ut rem autem nostrum temporibus maiores, culpa voluptas a voluptatibus praesentium maxime, voluptate, voluptatem nihil at aliquam totam minus et necessitatibus!</p>
+                <a href="post.html">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/b2.jpg">
+                <h3>Learn Web Development in The Easiest Way</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laboriosam sit veniam optio ex. Laboriosam expedita, id perspiciatis modi reiciendis adipisci minima alias eligendi cupiditate? Id voluptates ratione quos nobis?
+                Ad nemo beatae ut rem autem nostrum temporibus maiores, culpa voluptas a voluptatibus praesentium maxime, voluptate, voluptatem nihil at aliquam totam minus et necessitatibus!</p>
+                <a href="post.html">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/b3.jpg">
+                <h3>Learn Web Development in The Easiest Way</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laboriosam sit veniam optio ex. Laboriosam expedita, id perspiciatis modi reiciendis adipisci minima alias eligendi cupiditate? Id voluptates ratione quos nobis?
+                Ad nemo beatae ut rem autem nostrum temporibus maiores, culpa voluptas a voluptatibus praesentium maxime, voluptate, voluptatem nihil at aliquam totam minus et necessitatibus!</p>
+                <a href="post.html">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/b4.png">
+                <h3>Learn Web Development in The Easiest Way</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laboriosam sit veniam optio ex. Laboriosam expedita, id perspiciatis modi reiciendis adipisci minima alias eligendi cupiditate? Id voluptates ratione quos nobis?
+                Ad nemo beatae ut rem autem nostrum temporibus maiores, culpa voluptas a voluptatibus praesentium maxime, voluptate, voluptatem nihil at aliquam totam minus et necessitatibus!</p>
+                <a href="post.html">Read More</a>
+            </div>
+        </div>
+        
+        <div class="cate">
+            <h2>Categories</h2>
+            <hr>
+            <a href="#">Web Development</a>
+            <hr>
+            <a href="#">Web Design</a>
+            <hr>
+            <a href="#">App Development</a>
+            <hr>
+            <a href="#">Fronted Web</a>
+            <hr>
+            <a href="#">Python Programming</a>
+            <hr>
+            <a href="#">JavaScript Hack</a>
+            <hr>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Websites</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Websites</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Services</li>
+        </div>
+        
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us, we only send promo offers.</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="orange">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>copyright @2024 All rights reserverd | This template is made by Unlocked Dreams ❤️ </p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('menu').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>
